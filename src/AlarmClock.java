@@ -42,10 +42,6 @@ public class AlarmClock implements Runnable {
 
         // Gradually increase volume while playing sound
         playSoundWithGradualVolume(filePath);
-
-        System.out.print("Press ENTER to stop the alarm...");
-        scanner.nextLine();
-        System.out.println("Alarm [" + label + "] stopped.");
     }
 
     // Simulate vibration effect by printing shaking text
